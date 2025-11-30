@@ -20,7 +20,7 @@ const Metrics = () => {
       }, 20);
     };
 
-    animateCounter(setHackers, 205);
+    animateCounter(setHackers, 204);
     animateCounter(setProjects, 64);
     animateCounter(setBounties, 29000);
   }, []);
@@ -37,7 +37,7 @@ const Metrics = () => {
       </div>
       <div className="flex-1">
         <h2 className="text-3xl font-bold">${bounties.toLocaleString()}</h2>
-        <p className="text-lg font-semibold font-Herokid">Bounties</p> 
+        <p className="text-lg font-semibold font-Herokid">Bounties</p>
       </div>
     </div>
   );

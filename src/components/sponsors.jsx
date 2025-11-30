@@ -5,7 +5,7 @@ import logo3 from "../assets/sponsors/Core1.png";
 import logo4 from "../assets/Partners/EF-ESP-logo-white-text.png";
 import logo5 from "../assets/sponsors/Lumio.png";
 import logo6 from "../assets/Partners/4.png";
-import logo7 from "../assets/sponsors/Vara-final.png";
+import logo7 from "../assets/sponsors/Vara1.png";
 import logo8 from "../assets/sponsors/The Graph.png";
 import logo9 from "../assets/sponsors/Polygon.png";
 import logo10 from "../assets/sponsors/Fuel.png";
@@ -85,7 +85,7 @@ function Sponsors() {
           href="https://vara.network/"
           target="_blank"
           rel="noopener noreferrer"
-          className="place-self-center w-2/5 sm:w-1/5"
+          className="place-self-center w-2/5 sm:w-1/5 md:p-8 max-md:p-5"
         >
           <img src={logo7} alt="Vara" />
         </a>
